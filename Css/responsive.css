@@ -1,0 +1,52 @@
+@media screen and (max-width : 1000px) {
+    .logo_container{
+        flex-direction: column;
+        text-align: center;
+        width: 500px;
+        margin-left: 40vw;
+    }
+    nav ul{
+        justify-content: center;
+        text-align: center;
+        margin-left: 25vw;
+    }
+    
+    #home p,h2,button{
+        font-size: 20px;
+        
+    }
+
+    #section_container{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #services .second_h{
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    #services{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 13vw;
+
+    }
+
+    #services .box{
+        width: 700px;
+        height: 500px;
+        text-align: center;
+        padding: 0px;
+
+    }
+
+    #services .box h1{
+        font-size: 50px;
+    }
+    #services .box p{
+        font-size: 32px;
+    }
+}
